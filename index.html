@@ -21,7 +21,7 @@
             <a href="AboutMe/index.html">Sobre Mi</a>
             <a href="Software/index.html">Trayectoria</a>
             <a href="Multimedia/index.html">Multimedia</a>
-            <a href="Negocios/">Servicios</a>
+            <a href="Negocios/index.html">Servicios</a>
             <a href="Contacto/index.html">Contacto</a>
         </div>
     </nav>
@@ -34,6 +34,96 @@
         </div>
     </section>
 
+    <section class="testimonials">
+        <div class="testimonials-content">
+            <h2>Confianza que se construye con resultados</h2>
+
+            <div class="testimonial-slider">
+
+                <div class="slides" id="slides">
+
+                    <div class="testimonial-card">
+                        <img src="img/LOGO_OVYE_2.png">
+                        <h3>Perla Davila | Directora General OVYE Business Center</h3>
+                        <span>Proyecto: Cotizador automatico y Generador de Recibos OVYE</span>
+                        <p>"Un placer trabajar con Jorge, entendió nuestros flujos de trabajo y los automatizó haciendo mas facil nuestro trabajo."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="avatar">BM</div>
+                        <h3>Brayan Mora | Gerente SmilePack</h3>
+                        <span>Proyecto: Sistema para automatizacion de generacion de etiquetas para negocio SmilePack</span>
+                        <p>"Contacte a Jorge, porque primeramente requería ver si mi idea era alcanzable, y Jorge me oriento sobre la solución que ocupaba y me realizo una automatización para poder generar etiquetas para los paquetes que envio de mi negocio de ultima milla, y la automatización me hizo mas fácil esta tarea y me ha ahorrado mucho tiempo."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="avatar">JG</div>
+                        <h3>Jose Manuel Gonzalez | Encargado Parroquial</h3>
+                        <span>Proyecto: Sistema para buscar versiculos de distintas versiones de la biblia</span>
+                        <p>"Jorge es alguien con quien agradezco haber coincidido, he trabajado en varios proyectos con el, y es muy atento y demuestra mucho profesionalismo, entiende las ideas de uno y siempre esta abierto a apoyar"</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="img/logolions.jpg">
+                        <h3>Rogelio Perez | Head Coach Lions Alpha Team San Nicolas</h3>
+                        <span>Proyecto: Sistema gimnasio</span>
+                        <p>"Lo que yo requería era una solución robusta y practica para mi gimnasio de MMA, debido a que todo lo manejaba en excel y se me alentaba mi computadora, entonces acudí a Jorge y me hizo un programa muy completo, fue muy fácil el proceso, desde el momento en que lo contacte hasta el momento de la instalación y el uso diario del programa."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="img/logoCDA_TEST.png">
+                        <h3>Daniel Hernandez | Dueño Grupo CDA Construcciones</h3>
+                        <span>Proyecto: Sistema de Control de Obra Personalizado</span>
+                        <p>"Yo venia de trabajar con otras personas que me habían quedado mal en un proyecto, pero cuando contacte a Jorge se denoto una confianza que es muy difícil encontrar hoy en día, y me realizo un sistema de control de obra muy eficiente, y con las especificaciones que yo requería, muy satisfecho con el resultado obtenido."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="img/logo NERAZA.jpeg">
+                        <h3>Vanessa Avalos | Dueña NERAZA RECICLADORA DE MATERIALES</h3>
+                        <span>Proyecto: Sistema Administrativo NERAZA</span>
+                        <p>"Jorge es muy profesional y muy atento, el sistema que realizo me ha ayudado demasiado y me ha ahorrado mucho tiempo, porque antes lo hacia en excel, pero con este sistema es mucho mas fácil y rápido maneja la información."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="IMG/LOGO TERPLAG.jpg">
+                        <h3>Daniel Ocañas | Dueño Fumigaciones Terplag </h3>
+                        <span>Proyecto: Sistema de Control de Clientes</span>
+                        <p>"Desde la primer llamada, Jorge fue muy amable, y me asesoro de manera muy profesional en base a lo que yo buscaba, y me hizo el sistema en base a lo que yo le pedí, y la verdad me ha ayudado mucho con la generación de ordenes de servicio para mis clientes."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="avatar">JL</div>
+                        <h3>Jesus Llano | Cliente Instalacion de programas </h3>
+                        <span>Servicio: Instalacion Suite Office y Solid Edge</span>
+                        <p>"Excelente servicio, fue muy rápido y sencillo, me instalaron Office y SolidEdge, y funcionan a la perfección."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar">CG</div>
+                        <h3>Cecilia Gomez | Cliente Instalacion de programas </h3>
+                        <span>Servicio: Instalacion Suite Office</span>
+                        <p>"Agradezco la atención inmediata de Jorge, tenia horas tratando de instalar un office que me vendieron y estaba super estresada! Sin duda volvería a acudir con Jorge cuando requiera otros programas u otros servicios, muy confiable."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="IMG/LogoCronos1.png">
+                        <h3>Roberto Martinez | Dueño Cronos Gym</h3>
+                        <span>Servicio: Diseño de logotipo para Gimnasio</span>
+                        <p>"Jorge me ayudo a elaborar las tarjetas para mi gimnasio, y me gusto mucho el diseño propuesto y el resultado final, quedó muy bien el trabajo."</p>
+                    </div>
+
+
+                </div>
+
+                <!-- Flechas -->
+                <button class="slider-btn left" onclick="moveSlide(-1)">❮</button>
+                <button class="slider-btn right" onclick="moveSlide(1)">❯</button>
+
+                <!-- Indicadores -->
+                <div class="dots" id="dots"></div>
+
+            </div>
+        </div>
+    </section>
+
     <script>
         const toggle = document.getElementById("menu-toggle");
         const navLinks = document.getElementById("nav-links");
@@ -41,6 +131,44 @@
         toggle.addEventListener("click", () => {
             navLinks.classList.toggle("active");
         });
+
+        let index = 0;
+        const slides = document.getElementById("slides");
+        const totalSlides = slides.children.length;
+        const dotsContainer = document.getElementById("dots");
+
+        // Crear dots dinámicamente
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement("span");
+            dot.addEventListener("click", () => goToSlide(i));
+            dotsContainer.appendChild(dot);
+        }
+
+        function updateSlider() {
+            slides.style.transform = `translateX(-${index * 100}%)`;
+
+            document.querySelectorAll(".dots span").forEach((dot, i) => {
+                dot.classList.toggle("active", i === index);
+            });
+        }
+
+        function moveSlide(step) {
+            index = (index + step + totalSlides) % totalSlides;
+            updateSlider();
+        }
+
+        function goToSlide(i) {
+            index = i;
+            updateSlider();
+        }
+
+        // Auto slide
+        setInterval(() => {
+            moveSlide(1);
+        }, 4000);
+
+        // Inicializar
+        updateSlider();
     </script>
 
 </body>
