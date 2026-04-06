@@ -527,13 +527,33 @@ body {
     z-index: 9999;
 }
 
-.video-modal video,
+/* .video-modal video,
 .video-modal iframe {
     width: 90vw;
     max-width: 960px;
     aspect-ratio: 16 / 9;
     border-radius: 12px;
     background: #000;
+}
+    
+*/
+
+.video-modal video,
+.video-modal iframe {
+    width: 90vw;
+    max-width: 960px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain; /* 🔥 clave */
+    border-radius: 12px;
+    background: #000;
+}
+
+.video-modal iframe {
+    width: 90vw;
+    max-width: 960px;
+    height: calc(90vw * 9 / 16); /* fuerza proporción */
+    max-height: 540px;
 }
 
 /* BOTÓN CERRAR */
