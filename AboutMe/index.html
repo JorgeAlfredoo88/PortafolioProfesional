@@ -13,6 +13,19 @@
 
 <nav class="navbar sub-navbar">
     <a href="../index.html" class="logo">← Inicio</a>
+
+    <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+    <div class="nav-links" id="nav-links">
+        <!-- <a href="../AboutMe/index.html">Sobre Mi</a> -->
+        <a href="../Software/index.html">Proyectos</a>
+        <a href="../Multimedia/index.html">Multimedia</a>
+        <a href="../Negocios/index.html">Servicios</a>
+        <!-- <a href="Software/index.html">Soluciones Digitales</a> -->
+        <a href="../Contacto/index.html">Contacto</a>
+    </div>
 </nav>
 
 <section class="section">
@@ -131,7 +144,14 @@
     </div>
 </section>
 
+<script>
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
 
+toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
 
 </body>
 </html>

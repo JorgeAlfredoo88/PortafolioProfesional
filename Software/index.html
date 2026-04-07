@@ -13,6 +13,19 @@
 
 <nav class="navbar sub-navbar">
     <a href="../index.html" class="logo">← Inicio</a>
+
+    <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+    <div class="nav-links" id="nav-links">
+        <a href="../AboutMe/index.html">Sobre Mi</a>
+        <!-- <a href="../Software/index.html">Proyectos</a> -->
+        <a href="../Multimedia/index.html">Multimedia</a>
+        <a href="../Negocios/index.html">Servicios</a>
+        <!-- <a href="Software/index.html">Soluciones Digitales</a> -->
+        <a href="../Contacto/index.html">Contacto</a>
+    </div>
 </nav>
 
 <section class="section">
@@ -82,16 +95,15 @@
         </div>
 
         <div class="project-card">
-            <div class="project-image">
+            <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1G-JK-PpWDnLsAacpiqToSizNsOY3eedU/preview')">
                 <img src="../img/VIDEOLIONS2.png" alt="Buscador de Versículos">
             </div>
-
             <h3>Sistema BackOffice Lions Alpha Team</h3>
             <p class="projectDescription">
                 Sistema para la gestion de un gimnasio de MMA para gestionar la informacion de alumnos, mensualidades activas y por vencer, control de inventario,
                 registro de ventas e ingresos, control de caja, panel financiero, envio de mensajes y notificaciones por whatsapp.
             </p>
-            <a href="#">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1G-JK-PpWDnLsAacpiqToSizNsOY3eedU/preview')">Ver proyecto</a>
         </div>
 
         <div class="project-card">
@@ -140,6 +152,13 @@
     referrerpolicy="no-referrer"></iframe>
 </div>
 <script>
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
 function openVideo(type, src) {
     const modal = document.getElementById('videoModal');
     const video = document.getElementById('videoPlayer');
