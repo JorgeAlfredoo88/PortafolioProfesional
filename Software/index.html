@@ -1,12 +1,9 @@
-<!-- ==========================
-      software/index.html
-============================== -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo de Software</title>
+    <title>Desarrollo de Software y Diseño</title>
     <link rel="stylesheet" href="../Assets/css/style.css">
 </head>
 <body>
@@ -15,182 +12,292 @@
     <a href="../index.html" class="logo">← Inicio</a>
 
     <div class="menu-toggle" id="menu-toggle">
-            ☰
-        </div>
+        ☰
+    </div>
 
     <div class="nav-links" id="nav-links">
         <a href="../AboutMe/index.html">Sobre Mi</a>
-        <!-- <a href="../Software/index.html">Proyectos</a> -->
         <a href="../Multimedia/index.html">Multimedia</a>
         <a href="../Negocios/index.html">Servicios</a>
-        <!-- <a href="Software/index.html">Soluciones Digitales</a> -->
         <a href="../Contacto/index.html">Contacto</a>
     </div>
 </nav>
 
 <section class="section">
-    <h2>Proyectos Destacados</h2>
+    <h2>Proyectos Destacados (Software)</h2>
 
     <div class="projects-grid">
         <div class="project-card">
-            <a href="https://jorgealfredoo88.github.io/CreacionesRalMarie/" target="_blank"><div class="project-image">
-                <img src="../img/BannerRalMarie.png" alt="Buscador de Versículos">
-            </div></a>
-
+            <a href="https://jorgealfredoo88.github.io/CreacionesRalMarie/" target="_blank">
+                <div class="project-image">
+                    <img src="../img/BannerRalMarie.png" alt="Creaciones Ral Marie">
+                </div>
+            </a>
             <h3>Catalogo Interactivo Digital | Creaciones Ral Marie</h3>
             <p class="projectDescription">
-                Sitio Web diseñado para desplegar el catalago del negocio de recuerditos y manualidades "Creaciones Ral Marie", ofreciendo un espacio interactivo para mostrar
-                los productos que ofrece el negocio de una manera agradable para el usuario
+                Sitio Web diseñado para desplegar el catálogo del negocio de recuerditos y manualidades "Creaciones Ral Marie", ofreciendo un espacio interactivo para mostrar los productos de una manera agradable para el usuario.
             </p>
-            <a href="https://jorgealfredoo88.github.io/CreacionesRalMarie/" target="_blank">Ver proyecto</a>
+            <!-- <a href="https://jorgealfredoo88.github.io/CreacionesRalMarie/" target="_blank">Ver proyecto</a> -->
+             <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/BannerRalMarie.png',
+                    '../img/RalMarie_Captura1.png',
+                    '../img/RalMarie_Captura2.png',
+                    '../img/RalMarie_Captura3.png',
+                    '../img/RalMarie_Captura4.png',
+                    '../img/RalMarie_Captura5.png'
+                ])">Ver proyecto</a>
         </div>
 
         <div class="project-card">
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/VIDEOFOODSY.png',
+                    '../img/Foodsy1.png',
+                    '../img/Foodsy2.png',
+                    '../img/Foodsy3.png',
+                    '../img/Foodsy4.png',
+                    '../img/Foodsy5.png'
+                ])">
             <div class="project-image">
-                <img src="../img/VIDEOFOODSY.png" alt="Buscador de Versículos">
-            </div>
-
+                <img src="../img/VIDEOFOODSY.png" alt="Foodsy Delivery">
+            </div></a>
             <h3>Sistema Web de Gestion de Flotillas y Pedidos</h3>
             <p class="projectDescription">
-                Sistema Web para gestionar los pedidos realizados de flotillas de repartidores en didi que permite gestionar pagos a repartidores, asi como pagos de propinas y bonos
-                configurables dentro de la misma web.
+                Sistema Web para gestionar los pedidos realizados de flotillas de repartidores en DiDi que permite gestionar pagos a repartidores, así como pagos de propinas y bonos configurables dentro de la misma web.
             </p>
-            <a href="#">Ver proyecto</a>
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/VIDEOFOODSY.png',
+                    '../img/Foodsy1.png',
+                    '../img/Foodsy2.png',
+                    '../img/Foodsy3.png',
+                    '../img/Foodsy4.png',
+                    '../img/Foodsy5.png'
+                ])">Ver proyecto</a>
         </div>
 
         <div class="project-card">
-            <a href="https://jorgealfredoo88.github.io/gggcontadores_landing/" target="_blank"><div class="project-image">
-                <img src="../img/Banner GGGContadores.png" alt="Buscador de Versículos">
+            <a href="https://www.ausamx.com/" target="_blank"><div class="project-image">
+                <img src="../img/Ausa.png" alt="Foodsy Delivery">
             </div></a>
+            <h3>Pagina Web Multiservicios AUSAMX</h3>
+            <p class="projectDescription">
+                Pagina web para proporcionar los servicios ofrecidos por el negocio AUSAMX especializados en soluciones industriales.
+                <br><a href="https://www.ausamx.com/" target="_blank">ausamx.com</a>    
+            </p>
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/Ausa.png',
+                    '../img/AUSA1.png',
+                    '../img/AUSA2.png',
+                    '../img/AUSA3.png'
+                ])">Ver proyecto</a>
+        </div>
 
+        <div class="project-card">
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/VIF.png',
+                    '../img/VIF1.png',
+                    '../img/VIF2.png',
+                    '../img/VIF3.png',
+                    '../img/VIF4.png',
+                    '../img/VIF5.png',
+                    '../img/VIF6.png'
+                ])">
+            <div class="project-image">
+                <img src="../img/VIF.png" alt="Foodsy Delivery">
+            </div></a>
+            <h3>Sistema Web de Gestion de Verificaciones federales de vehiculos de autocarga</h3>
+            <p class="projectDescription">
+                Sistema Web para gestionar la documentacion y vigencias de verificaciones federales de lineas y unidades de transporte.
+            </p>
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/VIF.png',
+                    '../img/VIF1.png',
+                    '../img/VIF2.png',
+                    '../img/VIF3.png',
+                    '../img/VIF4.png',
+                    '../img/VIF5.png',
+                    '../img/VIF6.png'
+                ])">Ver proyecto</a>
+        </div>
+
+        <div class="project-card">
+             <a href="https://ayaconsulting.com.mx/" target="_blank"><div class="project-image">
+                <img src="../img/AyA.png" alt="Foodsy Delivery">
+            </div></a>
+            <h3>Pagina web servicio de visado - A&A Consulting</h3>
+            <p class="projectDescription">
+                Pagina Web informativa que muestra la informacion y los servicios de una agencia de soluciones y asesoramiento en el proceso de expedicion de visas de trabajo.
+                <br><a href="https://ayaconsulting.com.mx/" target="_blank">ayaconsulting.com.mx</a>   
+            </p>
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/AyA.png',
+                    '../img/aya1.png',
+                    '../img/aya2.png',
+                    '../img/aya3.png',
+                    '../img/aya4.png'
+                ])">Ver proyecto</a>
+        </div>
+
+        <div class="project-card">
+            <a href="https://jorgealfredoo88.github.io/gggcontadores_landing/" target="_blank">
+                <div class="project-image">
+                    <img src="../img/Banner GGGContadores.png" alt="GGGContadores">
+                </div>
+            </a>
             <h3>Plataforma Web Institucional - GGGContadores</h3>
             <p class="projectDescription">
                 Sitio web institucional para una firma de contadores públicos enfocada en digitalizar la presencia de la firma, estructurar su catálogo de servicios corporativos y centralizar la captación de clientes potenciales.
-                <a href="https://gggcontadores.com">gggcontadores.com</a>
+                <br><a href="https://gggcontadores.com" target="_blank">gggcontadores.com</a>
             </p>
-            <a href="https://jorgealfredoo88.github.io/gggcontadores_landing/" target="_blank">Ver proyecto</a>
+            <a style="cursor: pointer;" onclick="openCarousel([
+                    '../img/Banner GGGContadores.png',
+                    '../img/ggg01.png',
+                    '../img/ggg02.png',
+                    '../img/ggg03.png',
+                    '../img/ggg04.png',
+                    '../img/ggg05.png'
+                ])">Ver proyecto</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1I_wrYidjBhvhwu1-cP_ExwkpKSo5kcB4/preview')">
                 <img src="../img/VIDEOBUSCABIBLIA.png" alt="Buscador de Versículos">
             </div>
-
-            <h3>Buscador de Versiculos con Diccionario inteligente</h3>
+            <h3>Buscador de Versículos con Diccionario Inteligente</h3>
             <p class="projectDescription">
-                Buscador de versiculos con soporte para distintas versiones de la biblia, en donde se pueden importar listas de versiculos, y con formatos de exportacion en txt, word y PDF, con funciones para formar lista de ejercicios y Diccionario para reemplazar palabras.
+                Buscador de versículos con soporte para distintas versiones de la biblia, donde se pueden importar listas, con formatos de exportación en TXT, Word y PDF, funciones de ejercicios y Diccionario.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1I_wrYidjBhvhwu1-cP_ExwkpKSo5kcB4/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1I_wrYidjBhvhwu1-cP_ExwkpKSo5kcB4/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
-            <div class="project-image">
-                <img src="../img/VIDEOTERPLAG.png" alt="Buscador de Versículos" onclick="openVideo('drive', 'https://drive.google.com/file/d/1BN6ix3aaH1O5DkZAwQKqomyzwlA746i0/preview')">
+            <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1BN6ix3aaH1O5DkZAwQKqomyzwlA746i0/preview')">
+                <img src="../img/VIDEOTERPLAG.png" alt="Control de Fumigaciones">
             </div>
-
-            <h3>Sistema de Control de clientes para Fumigaciones</h3>
-            <p class="projectDescription">Sistema para el control de clientes, ordenes de servicio, asi como recordatorios para un negocio de Fumigaciones
-                con funciones avanzadas de recordatorios y exportacion de informacion en formato PDF y opcion para imprimir.
+            <h3>Sistema de Control de Clientes para Fumigaciones</h3>
+            <p class="projectDescription">
+                Sistema para el control de clientes, órdenes de servicio y recordatorios para un negocio de Fumigaciones con funciones avanzadas de avisos y exportación en formato PDF listo para imprimir.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1BN6ix3aaH1O5DkZAwQKqomyzwlA746i0/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1BN6ix3aaH1O5DkZAwQKqomyzwlA746i0/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1vki2HdbqzQz0tLNufMOsoFu1a3PM1K9h/preview')">
-                <img src="../img/VIDEOGRUPOCDA2.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEOGRUPOCDA2.png" alt="Grupo CDA">
             </div>
-
             <h3>Sistema de Control de Obra</h3>
-            <p class="projectDescription">Sistema de Control de Obra para Grupo CDA Construcciones, donde se manejan contratos y presupuestos iniciales,
-                estimaciones, manejo de extras, aditivas y deductivas en automatico, jornales y gente por administracion, gastos de materiales y reportes de avance de Obra
-                con opciones para exportar a formatos de PDF y Excel, asi como para imprimir directo del sistema.
+            <p class="projectDescription">
+                Sistema de Control de Obra para Grupo CDA Construcciones, maneja contratos, presupuestos iniciales, estimaciones, extras automáticos, jornales, gastos de materiales y reportes de avance exportables a PDF y Excel.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1vki2HdbqzQz0tLNufMOsoFu1a3PM1K9h/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1vki2HdbqzQz0tLNufMOsoFu1a3PM1K9h/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1PAHeDc3FhiZrYK3X-5Uop3M8uGZH9e86/preview')">
-                <img src="../img/VIDEOSMILEPACK.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEOSMILEPACK.png" alt="Automatización Smilepack">
             </div>
-
-            <h3>Automatizacion de impresion de etiquetas</h3>
-            <p class="projectDescription">Programa para automatizar la generacion de etiquetas para cliente del giro de ultima milla, con parametros configurables donde se configura el excel donde se extrae la informacion, asi
-                como el logotipo a imprimir, al escanear la guia, el programa manda a imprimir en automatico, agilizando el proceso de generacion de etiquetas.
+            <h3>Automatización de Impresión de Etiquetas</h3>
+            <p class="projectDescription">
+                Programa para automatizar la generación de etiquetas en el giro de última milla. Extrae información de Excel de forma dinámica y manda a imprimir en automático al escanear la guía.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1PAHeDc3FhiZrYK3X-5Uop3M8uGZH9e86/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1PAHeDc3FhiZrYK3X-5Uop3M8uGZH9e86/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1JbL-HPGzADsuwT68vCd6URsRvJaJ9gKl/preview')">
-                <img src="../img/VIDEONERAZA.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEONERAZA.png" alt="Sistema NERAZA">
             </div>
-
             <h3>Sistema Administrativo NERAZA</h3>
             <p class="projectDescription">
-                Sistema para administrar la informacion relacionada con la recicladora NERAZA, como compra y venta de material, control de flujo de caja diaria, gestion de nomina, gastos, ganancias, notas de compra, 
-                y reportes dinamicos en base a la informacion ingresada.
+                Sistema para administrar la información relacionada con la recicladora NERAZA, como compra y venta de material, flujo de caja diaria, gestión de nómina, gastos, ganancias y reportes dinámicos.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1JbL-HPGzADsuwT68vCd6URsRvJaJ9gKl/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1JbL-HPGzADsuwT68vCd6URsRvJaJ9gKl/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1G-JK-PpWDnLsAacpiqToSizNsOY3eedU/preview')">
-                <img src="../img/VIDEOLIONS2.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEOLIONS2.png" alt="Lions Alpha Team">
             </div>
             <h3>Sistema BackOffice Lions Alpha Team</h3>
             <p class="projectDescription">
-                Sistema para la gestion de un gimnasio de MMA para gestionar la informacion de alumnos, mensualidades activas y por vencer, control de inventario,
-                registro de ventas e ingresos, control de caja, panel financiero, envio de mensajes y notificaciones por whatsapp.
+                Gestión de un gimnasio de MMA: alumnos, mensualidades por vencer, control de inventario, registro de ventas, panel financiero y envío de notificaciones automatizadas por WhatsApp.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1G-JK-PpWDnLsAacpiqToSizNsOY3eedU/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1G-JK-PpWDnLsAacpiqToSizNsOY3eedU/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1fvx4hsDbCxpYF_nikUjjKtJwvWzTKfBi/preview')">
-                <img src="../img/VIDEOOVYE1.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEOOVYE1.png" alt="Cotizador OVYE">
             </div>
-
             <h3>Cotizador OVYE</h3>
             <p class="projectDescription">
-                Programa para generar cotizaciones en PDF en base a la informacion ingresada de manera dinamica controlada por sucursales.
+                Programa de escritorio para generar cotizaciones formales en formato PDF en base a la información ingresada de manera dinámica controlada por sucursales.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1fvx4hsDbCxpYF_nikUjjKtJwvWzTKfBi/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1fvx4hsDbCxpYF_nikUjjKtJwvWzTKfBi/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1DNzl74dyNKKJMyw-Ipnlj7xwGUy7XADR/preview')">
-                <img src="../img/VIDEOOVYE2.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEOOVYE2.png" alt="Recibos OVYE">
             </div>
-
             <h3>Generador de Recibos OVYE</h3>
             <p class="projectDescription">
-                Programa para generar recibos de pago de clientes activos en formato PDF en base a una plantilla definida,
-                para tener el control de los pagos recibidos.
+                Programa desarrollado para generar recibos de pago de clientes activos en formato PDF en base a una plantilla definida para mantener un estricto control financiero.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1DNzl74dyNKKJMyw-Ipnlj7xwGUy7XADR/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1DNzl74dyNKKJMyw-Ipnlj7xwGUy7XADR/preview')">Ver video</a>
         </div>
 
         <div class="project-card">
             <div class="project-image" onclick="openVideo('drive', 'https://drive.google.com/file/d/1RFO-uymVWzEKR1azvvvxZxal_Gk7hlI2/preview')">
-                <img src="../img/VIDEODEMORAMONA.png" alt="Buscador de Versículos">
+                <img src="../img/VIDEODEMORAMONA.png" alt="La Ramona Inventarios">
             </div>
-
             <h3>Sistema de Control de Inventario La Ramona</h3>
             <p class="projectDescription">
-                Programa para gestionar el inventario de un restaurante con funciones para registrar productos, entradas, salidas y merma de los mismos, para facilitar el control y administracion del restaurante
+                Programa para gestionar el inventario de un restaurante con funciones para registrar productos, entradas, salidas y mermas, facilitando el costeo y la administración interna.
             </p>
-            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1RFO-uymVWzEKR1azvvvxZxal_Gk7hlI2/preview')">Ver proyecto</a>
+            <a onclick="openVideo('drive', 'https://drive.google.com/file/d/1RFO-uymVWzEKR1azvvvxZxal_Gk7hlI2/preview')">Ver video</a>
         </div>
     </div>
 </section>
+
 <div class="video-modal" id="videoModal">
-    <span class="close" onclick="event.stopPropagation(); closeVideo()">×</span>
+    <span class="close" onclick="closeVideo()">×</span>
     <video id="videoPlayer" controls></video>
-    <iframe id="iframePlayer" allow="autoplay"
-    allowfullscreen
-    referrerpolicy="no-referrer"></iframe>
+    <iframe id="iframePlayer" allow="autoplay" allowfullscreen referrerpolicy="no-referrer"></iframe>
 </div>
+
+<div class="image-modal" id="imageModal">
+    <span class="close" onclick="closeImage()">×</span>
+    <img id="imageViewer" alt="Vista Ampliada">
+</div>
+
+<div class="card-modal" id="cardModal">
+    <div class="card-modal-content">
+        <span class="close" onclick="closeCard3D()">×</span>
+        <div class="card-3d" onclick="this.classList.toggle('flip')">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="../img/TarjetaFrente.png" alt="Tarjeta Frente">
+                </div>
+                <div class="card-back">
+                    <img src="../img/TarjetaTrasera.png" alt="Tarjeta Trasera">
+                </div>
+            </div>
+        </div>
+        <p class="hint">Haz click en la tarjeta para girarla</p>
+    </div>
+</div>
+
+<div class="carousel-modal" id="carouselModal">
+    <span class="close" onclick="closeCarousel()">×</span>
+    <div class="carousel-container">
+        <button class="carousel-btn left" onclick="prevSlide()">‹</button>
+        <img id="carouselImage" src="" alt="Carrusel">
+        <button class="carousel-btn right" onclick="nextSlide()">›</button>
+    </div>
+</div>
+
 <script>
+// Menu Hamburguesa de Navegación
 const toggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
 
@@ -198,6 +305,7 @@ toggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
 
+// --- SISTEMA DE MODAL DE VIDEO ---
 function openVideo(type, src) {
     const modal = document.getElementById('videoModal');
     const video = document.getElementById('videoPlayer');
@@ -205,72 +313,39 @@ function openVideo(type, src) {
 
     video.style.display = 'none';
     iframe.style.display = 'none';
+    video.src = '';
+    iframe.src = '';
 
     if (type === 'local') {
         video.src = src;
         video.style.display = 'block';
         video.play();
-    }
-
-    if (type === 'youtube') {
+    } else if (type === 'youtube') {
         iframe.src = `https://www.youtube.com/embed/${src}?autoplay=1&rel=0`;
         iframe.style.display = 'block';
-    }
-
-    if (type === 'drive') {
+    } else if (type === 'drive') {
         iframe.src = src;
         iframe.style.display = 'block';
     }
-
-    modal.style.display = 'flex';
-}
-
-
-function closeVideo() {
-    try {
-        const modal = document.getElementById('videoModal');
-        const video = document.getElementById('videoPlayer');
-        const iframe = document.getElementById('iframePlayer');
-
-        if (video) {
-            video.pause?.();
-            video.src = '';
-        }
-
-        if (iframe) {
-            iframe.src = '';
-        }
-
-        modal.style.display = 'none';
-    } catch (e) {
-        document.getElementById('videoModal').style.display = 'none';
-    }
-}
-
-
-function openYouTube(videoId) {
-    const modal = document.getElementById('videoModal');
-    const iframe = document.getElementById('ytPlayer');
-
-    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-    modal.style.display = 'flex';
-}
-
-function openDrive(fileId) {
-    const modal = document.getElementById('videoModal');
-    const iframe = document.getElementById('drivePlayer');
-
-    iframe.src = `https://drive.google.com/file/d/${fileId}/preview`;
     modal.style.display = 'flex';
 }
 
 function closeVideo() {
     const modal = document.getElementById('videoModal');
+    const video = document.getElementById('videoPlayer');
     const iframe = document.getElementById('iframePlayer');
-    iframe.src = '';
+
+    if (video) {
+        video.pause();
+        video.src = '';
+    }
+    if (iframe) {
+        iframe.src = '';
+    }
     modal.style.display = 'none';
 }
 
+// --- SISTEMA DE IMAGEN INDIVIDUAL ---
 function openImage(src) {
     document.getElementById('imageViewer').src = src;
     document.getElementById('imageModal').style.display = 'flex';
@@ -280,6 +355,7 @@ function closeImage() {
     document.getElementById('imageModal').style.display = 'none';
 }
 
+// --- SISTEMA DE TARJETA 3D ---
 function openCard3D() {
     document.getElementById('cardModal').style.display = 'flex';
 }
@@ -288,6 +364,7 @@ function closeCard3D() {
     document.getElementById('cardModal').style.display = 'none';
 }
 
+// --- SISTEMA DE CARRUSEL DE IMÁGENES ---
 let carouselImages = [];
 let currentIndex = 0;
 let carouselInterval = null;
@@ -295,7 +372,6 @@ let carouselInterval = null;
 function openCarousel(images, autoPlay = true) {
     carouselImages = images;
     currentIndex = 0;
-
     document.getElementById('carouselImage').src = carouselImages[currentIndex];
     document.getElementById('carouselModal').style.display = 'flex';
 
@@ -306,21 +382,23 @@ function openCarousel(images, autoPlay = true) {
 
 function closeCarousel() {
     document.getElementById('carouselModal').style.display = 'none';
-    clearInterval(carouselInterval);
+    if (carouselInterval) {
+        clearInterval(carouselInterval);
+    }
 }
 
 function nextSlide() {
+    if (carouselImages.length === 0) return;
     currentIndex = (currentIndex + 1) % carouselImages.length;
     document.getElementById('carouselImage').src = carouselImages[currentIndex];
 }
 
 function prevSlide() {
+    if (carouselImages.length === 0) return;
     currentIndex = (currentIndex - 1 + carouselImages.length) % carouselImages.length;
     document.getElementById('carouselImage').src = carouselImages[currentIndex];
 }
-
 </script>
-
 
 </body>
 </html>
